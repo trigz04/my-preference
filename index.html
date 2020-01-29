@@ -1,7 +1,9 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-    <title>%%=v(@i18n_title)=%%</title>
+
+<head>
+    <title>Luxury Escapes | My Preferences</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -10,1777 +12,2330 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style type="text/css">
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700');
- [style*="IBM Plex Sans"] {
- font-family: 'IBM Plex Sans', sans-serif !important
-}
-html,  body,  div,  span,  applet,  object,  iframe,  h1,  h2,  h3,  h4,  h5,  h6,  p,  blockquote,  pre,  a,  abbr,  acronym,  address,  big,  cite,  code,  del,  dfn,  em,  img,  ins,  kbd,  q,  s,  samp,  small,  strike,  strong,  sub,  sup,  tt,  var,  b,  u,  i,  center,  dl,  dt,  dd,  ol,  ul,  li,  fieldset,  form,  label,  legend,  table,  caption,  tbody,  tfoot,  thead,  tr,  th,  td,  article,  aside,  canvas,  details,  embed,  figure,  figcaption,  footer,  header,  hgroup,  menu,  nav,  output,  ruby,  section,  summary,  time,  mark,  audio,  video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
-}
-* {
-	box-sizing: border-box;
-}
-body {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	font-size: 14px;
-	color: #2b3036;
-}
-.hide {
-	display: none !important;
-}
-.center {
-	text-align: center;
-}
-.container-fluid {
-	width: 100%;
-}
-.container {
-	max-width: 1170px;
-	margin: 0px auto;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.container:before {
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-	height: 100%;
-}
-.header {
-	background: #ffffff;
-	padding: 0;
-	margin: 0 auto;
-	vertical-align: top;
-}
-.LogoWrapper {
-	padding: 15px 0px;
-	display: inline-block;
-	width: 59%;
-	vertical-align: middle;
-}
-.logo_image {
-	width: 120px;
-}
-.note {
-	font-size: 24px;
-	font-weight: 800;
-	padding: 30px 45px 0 45px;
-}
-.email {
-	font-size: 14px;
-	color: #4a4a4a;
-	margin: 30px 0;
-}
-.info {
-	text-align: center;
-	font-size: 18px;
-	font-weight: 800;
-	margin-bottom: 30px;
-}
-.NavWrapper {
-	background-color: rgb(51, 51, 51);
-}
-.NavWrapper ul {
-	list-style: none
-}
-.NavWrapper ul li {
-	display: inline-block;
-	padding: 1rem;
-}
-.NavWrapper ul li a {
-	color: #fafafa;
-	text-decoration: none;
-}
-.MainContentWrapper {
-	margin: 0 auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #ecefef
-}
-.ContentHeader {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	font-size: 32px;
-	font-weight: 500;
-	margin-bottom: 20px;
-}
-.ContentSubHeader {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	margin-bottom: 10px;
-}
-.SectionWrapper {
-	background-color: #FFF;
-	padding: 40px;
-	-webkit-box-shadow: 0 1px 3px 1px #8F8F8F;
-	box-shadow: 0 1px 3px 1px #8F8F8F;
-	margin-bottom: 35px
-}
-.vertical_row {
-	display: flex;
-	flex: 1;
-	flex-direction: row;
-	border-top: 1px solid #d8d8d8;
-	align-items: center;
-	padding: 15px 10px;
-}
-.vertical_title {
-	flex: 1;
-	font-weight: bold;
-	font-size: 14px;
-}
-.vertical_select {
-	display: flex;
-	flex: row;
-	flex-direction: row;
-	align-items: center;
-}
-.vertical_label {
-	font-size: 14px;
-	color: #4a4a4a;
-}
-.select_box {
-	height: 35px;
-	background: #e8e8e8e8;
-	border-radius: 5px;
-	border: 0;
-	font-size: 14px;
-	font-family: 'Muli', 'Trebuchet MS', Arial, sans-serif;
-	margin-left: 10px;
-}
-.unsub_container {
-	border-top: 1px solid #d8d8d8;
-	padding: 40px 0;
-}
-.optout_label {
-	font-size: 12px;
-	color: #4a4a4a;
-	cursor: pointer;
-}
-.optout_checkbox {
-	height: 18px;
-	width: 18px;
-	border: 1px solid #9b9b9b;
-	background: white;
-	border-radius: 3px;
-	margin: 0;
-	vertical-align: middle;
-	position: relative;
-	bottom: 1px;
-}
-.button {
-	border-radius: 5px;
-	background: #00a380;
-	box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.3);
-	color: white;
-	padding: 9px 0;
-	font-family: 'Muli', 'Trebuchet MS', Arial, sans-serif;
-	font-size: 14px;
-	font-weight: 800;
-	width: 300px;
-	cursor: pointer;
-}
-.optout_all {
-	margin-top: 20px;
-}
-.responsive-td {
-	display: inline-block;
-	vertical-align: top;
-}
-.FormLabel {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	font-size: 14px;
-	color: #2b3036;
-	margin-bottom: 5px;
-}
-.FormTextBoxWrapper {
-	color: #222222;
-	margin-top: 5px;
-	width: 100%;
-	border: 1px solid #cccccc;
-	margin-top: 5px;
-	transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-	position: relative;
-}
-.FormTextBoxWrapper2 {
-	color: #222222;
-	margin-top: 5px;
-	width: auto;
-	border: 1px solid #cccccc;
-	margin-top: 5px;
-	padding-right: 20px;
-	transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-	display: inline-block;
-	position: relative;
-}
-.FormTextBoxWrapper3 {
-	color: #222222;
-	margin-top: 5px;
-	width: auto;
-	border: 1px solid #cccccc;
-	margin-top: 5px;
-	transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-	display: inline-block;
-	position: relative;
-}
-.FormTextBoxWrapper:hover {
-	border: 1px solid #1ba2ad;
-}
-.FormTextBox {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	color: #222222;
-	padding: 5px;
-	font-size: 1rem;
-	-moz-appearance: none;
-	width: 100%;
-	border: medium none;
-	background-color: transparent;
-	height: 100%;
-	overflow-x: hidden;
-}
-.FormSelectBox {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	display: block;
-	overflow-x: hidden;
-	padding: 4px 5px;
-	width: 100%;
-	border: medium none;
-	background-color: transparent;
-	height: 100%;
-	font-size: 1rem;
-	color: #222222;
-	z-index: 2;
-	position: relative;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	text-indent: 1px;
-	text-overflow: '';
-}
-.FormTextBox2 {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	color: #222222;
-	padding: 5px;
-	font-size: 1rem;
-	-moz-appearance: none;
-	width: auto;
-	border: medium none;
-	background-color: transparent;
-	height: 100%;
-	overflow-x: hidden;
-}
-.FormSelectBox2 {
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	display: block;
-	overflow-x: hidden;
-	padding: 4px 5px;
-	width: auto;
-	border: medium none;
-	background-color: transparent;
-	height: 100%;
-	font-size: 1rem;
-	color: #222222;
-	z-index: 2;
-	position: relative;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	text-indent: 1px;
-	text-overflow: '';
-}
- input:required:invalid,  input:focus:invalid {
+    
+    <style type="text/css">    @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700');
+
+    [style*="IBM Plex Sans"] {
+        font-family: 'IBM Plex Sans', sans-serif !important
+    }
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        font-size: 14px;
+        color: #2b3036;
+    }
+
+    .hide {
+        display: none !important;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 1170px;
+        margin: 0px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+
+    .header {
+        background: #ffffff;
+        padding: 0;
+        margin: 0 auto;
+        vertical-align: top;
+    }
+
+    .LogoWrapper {
+        padding: 15px 0px;
+        display: inline-block;
+        width: 59%;
+        vertical-align: middle;
+    }
+
+    .logo_image {
+        width: 120px;
+    }
+
+    .note {
+        font-size: 24px;
+        font-weight: 800;
+        padding: 30px 45px 0 45px;
+    }
+
+    .email {
+        font-size: 14px;
+        color: #4a4a4a;
+        margin: 30px 0;
+    }
+
+    .info {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    .NavWrapper {
+        background-color: rgb(51, 51, 51);
+    }
+
+    .NavWrapper ul {
+        list-style: none
+    }
+
+    .NavWrapper ul li {
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    .NavWrapper ul li a {
+        color: #fafafa;
+        text-decoration: none;
+    }
+
+    .MainContentWrapper {
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #ecefef
+    }
+
+
+    .ContentHeader {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .ContentSubHeader {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .SectionWrapper {
+        background-color: #FFF;
+        padding: 40px;
+        -webkit-box-shadow: 0 1px 3px 1px #8F8F8F;
+        box-shadow: 0 1px 3px 1px #8F8F8F;
+        margin-bottom: 35px
+    }
+
+    .vertical_row {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        border-top: 1px solid #d8d8d8;
+        align-items: center;
+        padding: 15px 10px;
+    }
+
+    .vertical_title {
+        flex: 1;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .vertical_select {
+        display: flex;
+        flex: row;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .vertical_label {
+        font-size: 14px;
+        color: #4a4a4a;
+    }
+
+    .select_box {
+        height: 35px;
+        background: #e8e8e8e8;
+        border-radius: 5px;
+        border: 0;
+        font-size: 14px;
+        font-family: 'Muli', 'Trebuchet MS', Arial, sans-serif;
+        margin-left: 10px;
+    }
+
+    .unsub_container {
+        border-top: 1px solid #d8d8d8;
+        padding: 40px 0;
+    }
+
+    .optout_label {
+        font-size: 12px;
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+
+    .optout_checkbox {
+        height: 18px;
+        width: 18px;
+        border: 1px solid #9b9b9b;
+        background: white;
+        border-radius: 3px;
+        margin: 0;
+        vertical-align: middle;
+        position: relative;
+        bottom: 1px;
+    }
+
+    .button {
+        border-radius: 5px;
+        background: #00a380;
+        box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.3);
+        color: white;
+        padding: 9px 0;
+        font-family: 'Muli', 'Trebuchet MS', Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .optout_all {
+        margin-top: 20px;
+    }
+
+    .responsive-td {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .FormLabel {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        font-size: 14px;
+        color: #2b3036;
+        margin-bottom: 5px;
+    }
+
+    .FormTextBoxWrapper {
+        color: #222222;
+        margin-top: 5px;
+        width: 100%;
+        border: 1px solid #cccccc;
+        margin-top: 5px;
+        transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
+        position: relative;
+    }
+
+    .FormTextBoxWrapper2 {
+        color: #222222;
+        margin-top: 5px;
+        width: auto;
+        border: 1px solid #cccccc;
+        margin-top: 5px;
+        padding-right: 20px;
+        transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
+        display: inline-block;
+        position: relative;
+    }
+
+    .FormTextBoxWrapper3 {
+        color: #222222;
+        margin-top: 5px;
+        width: auto;
+        border: 1px solid #cccccc;
+        margin-top: 5px;
+        transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
+        display: inline-block;
+        position: relative;
+    }
+
+    .FormTextBoxWrapper:hover {
+        border: 1px solid #1ba2ad;
+    }
+
+    .FormTextBox {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        color: #222222;
+        padding: 5px;
+        font-size: 1rem;
+        -moz-appearance: none;
+        width: 100%;
+        border: medium none;
+        background-color: transparent;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .FormSelectBox {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        display: block;
+        overflow-x: hidden;
+        padding: 4px 5px;
+        width: 100%;
+        border: medium none;
+        background-color: transparent;
+        height: 100%;
+        font-size: 1rem;
+        color: #222222;
+        z-index: 2;
+        position: relative;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+
+    .FormTextBox2 {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        color: #222222;
+        padding: 5px;
+        font-size: 1rem;
+        -moz-appearance: none;
+        width: auto;
+        border: medium none;
+        background-color: transparent;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .FormSelectBox2 {
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        display: block;
+        overflow-x: hidden;
+        padding: 4px 5px;
+        width: auto;
+        border: medium none;
+        background-color: transparent;
+        height: 100%;
+        font-size: 1rem;
+        color: #222222;
+        z-index: 2;
+        position: relative;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+
+    input:required:invalid,
+    input:focus:invalid {
         /* insert your own styles for invalid form input */
         transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-}
-.content-row {
-	margin-bottom: 30px;
-	clear: both;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-.ContentBox {
-	border: 1px solid #cccccc;
-}
-.ContentBoxSmall {
-	border: 1px solid #cccccc;
-	margin-bottom: 15px;
-	margin-right: 15px;
-	transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-}
-.ContentBoxSmall:hover,  .ContentBoxSmall:focus {
-	border: 1px solid #1ba2ad;
-	-webkit-box-shadow: inset 0px 0px 0px2px #1ba2ad;
-	-moz-box-shadow: inset 0px 0px 0px 2px #1ba2ad;
-	box-shadow: inset 0px 0px 0px 2px #1ba2ad;
-	transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-}
-.ContentBoxSmall.BoxSelected {
-	border: 1px solid #1ba2ad;
-	-webkit-box-shadow: inset 0px 0px 0px2px #1ba2ad;
-	-moz-box-shadow: inset 0px 0px 0px 2px #1ba2ad;
-	box-shadow: inset 0px 0px 0px 2px #1ba2ad;
-	transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
-}
-.ContentBoxSmall .ContentBoxRow {
-	border: 0 !important;
-}
-.ContentBoxRow {
-	border-bottom: 1px solid #cccccc;
-	padding: 30px 40px;
-}
-.ContentBoxRow.last-child {
-	border-bottom: 0;
-	padding: 30px 40px;
-}
-.ContentBoxSmall .ContentBoxRow {
-	padding: 10px;
-}
-.ContentBoxSmall .ContentBoxRow .responsive-td {
-	vertical-align: middle
-}
-.ContentBoxRow label {
-	cursor: pointer;
-}
-.GreenButton {
-	background-color: #00a380;
-	padding: 10px 20px;
-	color: #FFF;
-	-webkit-border-radius: 4px 4px 4px 4px;
-	border-radius: 4px 4px 4px 4px;
-	border: 0;
-	cursor: pointer;
-	margin-top: 5px;
-	font-size: 16px;
-}
-.deal-img {
-	width: 100%;
-	position: relative;
-}
-footer {
-	background-color: #2b3036;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.FooterHeader {
-	color: #ffffff;
-	font-size: 16px;
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 40px;
-}
-.FooterSocialIcons {
-	clear: both;
-}
-.FooterSocialIcons li {
-	display: inline;
-	margin-right: 10px;
-}
-.footer-col {
-	width: 24.5%;
-}
-.FooterLinks {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-.FooterLinks li {
-	margin-bottom: 10px;
-}
-.FooterLinks li a {
-	color: #b9bbc1;
-	text-decoration: none;
-	font-size: 16px;
-	font-weight: normal;
-}
-.FooterAppIcons {
-	margin-bottom: 20px;
-}
-.FooterTop {
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #494949;
-}
-.FooterBottom {
-	color: #b9bbc1;
-	font-size: 16px;
-}
-.footer-col-2 {
-	width: 49.5%;
-}
-.FooterHeader2 {
-	color: #ffffff;
-	font-size: 16px;
-	font-family: 'IBM Plex Sans', Arial, sans-serif;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-.clear {
-	clear: both;
-}
-.hamburger-icon {
-	display: none;
-}
-.IconWrapper2 {
-	display: none;
-}
-.LogoWrapper {
-	display: inline-block;
-	width: 59%;
-	padding: 15px 0px;
-}
-.TopRightMenuWrapper {
-	display: inline-block;
-	width: 40%;
-	padding: 15px 0px;
-	vertical-align: middle;
-}
-.TopRightMenu {
-	display: inline-block;
-	width: 100%;
-	line-height: 19px;
-	vertical-align: top;
-	text-align: right;
-}
-.TopRightMenu img {
-	margin-right: 5px;
-	display: inline-block;
-	vertical-align: middle
-}
-/* Custom Checkbox */
+    }
+
+    .content-row {
+        margin-bottom: 30px;
+        clear: both;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .ContentBox {
+        border: 1px solid #cccccc;
+    }
+
+    .ContentBoxSmall {
+        border: 1px solid #cccccc;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
+    }
+
+    .ContentBoxSmall:hover,
+    .ContentBoxSmall:focus {
+        border: 1px solid #1ba2ad;
+        -webkit-box-shadow: inset 0px 0px 0px2px #1ba2ad;
+        -moz-box-shadow: inset 0px 0px 0px 2px #1ba2ad;
+        box-shadow: inset 0px 0px 0px 2px #1ba2ad;
+        transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
+    }
+
+    .ContentBoxSmall.BoxSelected {
+        border: 1px solid #1ba2ad;
+        -webkit-box-shadow: inset 0px 0px 0px2px #1ba2ad;
+        -moz-box-shadow: inset 0px 0px 0px 2px #1ba2ad;
+        box-shadow: inset 0px 0px 0px 2px #1ba2ad;
+        transition: border-color 0.2s ease 0s, color 0.2s ease 0s, background-color 0.2s ease 0s;
+    }
+
+    .ContentBoxSmall .ContentBoxRow {
+        border: 0 !important;
+    }
+
+    .ContentBoxRow {
+        border-bottom: 1px solid #cccccc;
+        padding: 30px 40px;
+    }
+
+    .ContentBoxRow.last-child {
+        border-bottom: 0;
+        padding: 30px 40px;
+    }
+
+    .ContentBoxSmall .ContentBoxRow {
+        padding: 10px;
+    }
+
+    .ContentBoxSmall .ContentBoxRow .responsive-td {
+        vertical-align: middle
+    }
+
+    .ContentBoxRow label {
+        cursor: pointer;
+    }
+
+    .GreenButton {
+        background-color: #00a380;
+        padding: 10px 20px;
+        color: #FFF;
+        -webkit-border-radius: 4px 4px 4px 4px;
+        border-radius: 4px 4px 4px 4px;
+        border: 0;
+        cursor: pointer;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .deal-img {
+        width: 100%;
+        position: relative;
+    }
+
+    footer {
+        background-color: #2b3036;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .FooterHeader {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    .FooterSocialIcons {
+        clear: both;
+    }
+
+    .FooterSocialIcons li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .footer-col {
+        width: 24.5%;
+    }
+
+    .FooterLinks {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .FooterLinks li {
+        margin-bottom: 10px;
+    }
+
+    .FooterLinks li a {
+        color: #b9bbc1;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .FooterAppIcons {
+        margin-bottom: 20px;
+    }
+
+    .FooterTop {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #494949;
+    }
+
+    .FooterBottom {
+        color: #b9bbc1;
+        font-size: 16px;
+    }
+
+    .footer-col-2 {
+        width: 49.5%;
+    }
+
+    .FooterHeader2 {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    .IconWrapper2 {
+        display: none;
+    }
+
+    .LogoWrapper {
+        display: inline-block;
+        width: 59%;
+        padding: 15px 0px;
+    }
+
+    .TopRightMenuWrapper {
+        display: inline-block;
+        width: 40%;
+        padding: 15px 0px;
+        vertical-align: middle;
+    }
+
+    .TopRightMenu {
+        display: inline-block;
+        width: 100%;
+        line-height: 19px;
+        vertical-align: top;
+        text-align: right;
+    }
+
+    .TopRightMenu img {
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    /* Custom Checkbox */
 
     div.container-checkbox2 {
-	display: block;
-	position: relative;
-	vertical-align: middle;
-	cursor: pointer;
-}
-div.container-checkbox2 div.inputcheck {
-	display: inline-block;
-	vertical-align: middle;
-	width: 35px;
-	position: relative;
-}
-/* You can omit the entire span if you don't want the radiobutton vertically centered */
+        display: block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    div.container-checkbox2 div.inputcheck {
+        display: inline-block;
+        vertical-align: middle;
+        width: 35px;
+        position: relative;
+    }
+
+    /* You can omit the entire span if you don't want the radiobutton vertically centered */
     div.container-checkbox2 div.label {
-	display: inline-block;
-	vertical-align: middle;
-	width: 50%;
-}
-div.container-checkbox2 label {
-	cursor: pointer;
-}
-/* Hide the browser's default checkbox */
+        display: inline-block;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    div.container-checkbox2 label {
+        cursor: pointer;
+    }
+
+    /* Hide the browser's default checkbox */
     .container-checkbox2 input {
-	height: 28px;
-	width: 28px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-	outline: none;
-	transition-duration: 0.3s;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
-	color: #1ba2ad;
-}
-.container-checkbox2 input:checked+span::before {
-	content: '';
-	display: block;
-	/*Make it a small rectangle so the border will create an L-shape*/
+        height: 28px;
+        width: 28px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        outline: none;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        color: #1ba2ad;
+    }
+
+    .container-checkbox2 input:checked+span::before {
+        content: '';
+        display: block;
+        /*Make it a small rectangle so the border will create an L-shape*/
         width: 5px;
-	height: 10px;
-	/*Add a white border on the bottom and left, creating that 'L' */
+        height: 10px;
+        /*Add a white border on the bottom and left, creating that 'L' */
         border: solid #00a380;
-	border-width: 0 2px 2px 0;
-	/*Rotate the L 45 degrees to turn it into a checkmark*/
+        border-width: 0 2px 2px 0;
+        /*Rotate the L 45 degrees to turn it into a checkmark*/
         transform: rotate(45deg);
-	position: absolute;
-	top: 10px;
-	left: 13px;
-	z-index: 2
-}
-/* Create a custom checkbox */
+        position: absolute;
+        top: 10px;
+        left: 13px;
+        z-index: 2
+    }
+
+    /* Create a custom checkbox */
     .container-checkbox2 .checkmark {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 28px;
-	width: 28px;
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-}
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 28px;
+        width: 28px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+    }
 
     /* Show the checkmark when checked */
     .container-checkbox2 input:checked~.checkmark:after {
- display: block;
-}
-/* Style the checkmark/indicator */
-    .container-checkbox2 .checkmark:after {
-	left: 10px;
-	top: 5px;
-	width: 5px;
-	height: 13px;
-	border: solid #1ba2ad;
-	border-width: 0 1px 1px 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-.DropArrow {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	height: 28px;
-	width: 28px;
-	z-index: 1;
-}
-.DropArrow:after {
-	left: 10px;
-	top: 10px;
-	width: 8px;
-	height: 8px;
-	border: solid #1ba2ad;
-	border-width: 0 1px 1px 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	display: block;
-	position: absolute;
-	content: "";
-}
-.error-message {
-	position: absolute;
-	margin-top: 5px;
-	color: #F00;
-	font-size: 12px;
-}
-input[type="submit"] {
--webkit-appearance: none;
-}
- @media screen and (max-width: 768px) {
-.preferences {
-	margin: 0 10px;
-}
-.vertical_row {
-	flex-direction: column;
-	align-items: flex-start;
-	padding: 20px 10px;
-}
-.vertical_title {
-	font-weight: 800;
-	font-size: 16px;
-}
-.vertical_select {
-	flex-direction: column;
-	width: 100%;
-	align-items: flex-start;
-}
-.vertical_label {
-	padding: 8px 0;
-}
-.select_box {
-	margin: 0;
-	flex: 1;
-	width: 100%;
-}
-.unsub_container {
-	padding: 20px 0;
-}
-.button {
-	width: 100%;
-}
-.ContentBoxRow label {
-	font-size: 13px !important;
-	word-wrap: break-word;
-}
-
-}
- @media only screen and (max-width: 480px) {
-.mobile-hidden {
-	display: none !important;
-}
-.responsive-td {
-	width: 100% !important;
-	display: block !important;
-	padding-right: 0 !important;
-}
-.header .container {
-	padding-left: 10px !important;
-	padding-right: 10px !important;
-}
-.LogoWrapper {
-	display: inline-block;
-	width: 70%;
-	padding-left: 10px;
-}
-.LogoWrapper img {
-	width: 100%;
-	position: relative;
-}
-.FooterBottom .responsive-td {
-	text-align: center !important;
-	margin-bottom: 10px;
-}
-.SectionWrapper {
-	padding-left: 20px;
-	padding-right: 20px;
-	position: relative;
-}
-.ContentBoxRow,  .ContentBoxRow.last-child {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.responsive-td.non-stack {
-	display: inline-block !important;
-	width: 49% !important;
-	position: relative;
-}
-.non-stack.section-icon {
-	width: 15% !important;
-	display: inline-block !important;
-	margin-right: 10px;
-	position: relative;
-}
-.non-stack.section-icon img {
-	width: 100%;
-	position: relative;
-	height: auto;
-}
-.non-stack.section-icon svg {
-	width: 100%;
-	position: relative;
-	height: auto;
-}
-.non-stack.section-fields {
-	width: 65% !important;
-	display: inline-block !important;
-	position: relative;
-	position: relative;
-}
-.non-stack.section-checkbox {
-	width: 70% !important;
-	display: inline-block;
-	position: relative;
-}
-.ContentBoxSmall {
-	width: 100% !important;
-	position: relative !important;
-	max-width: 100% !important;
-	margin-right: 0px !important;
-}
-.TopRightMenuWrapper {
-	display: none;
-}
-/* Style the navigation menu */
-        .topnav {
-	overflow: hidden;
-	background-color: rgb(51, 51, 51);
-	position: relative;
-}
-/* Hide the links inside the navigation menu (except for logo/home) */
-        .topnav #TopMenu {
-	display: none;
-}
-/* Style navigation menu links */
-        .topnav a {
-	color: black;
-	padding: 0px;
-	text-decoration: none;
-	font-size: 17px;
-	display: inline-block;
-}
-/* Style the hamburger menu */
-        .topnav .IconWrapper {
-	display: inline-block;
-	position: relative;
-	width: 40px;
-	vertical-align: top;
-	padding: 0px 5px;
-}
-.MobileTopRightMenu {
-	display: inline-block;
-	position: relative;
-	vertical-align: top;
-	font-size: 16px;
-}
-.IconWrapper2 {
-	display: inline-block;
-	position: relative;
-	width: 30px;
-	vertical-align: top;
-	padding: 20px 5px 0px;
-}
-.topnav a.hamburger-icon {
-	display: inline-block;
-	position: absolute;
-	top: 20px;
-	left: 25%
-}
-/* Add a grey background color on mouse-over */
-        .topnav a:hover {
-	color: black;
-}
-/* Style the active link (or home/logo) */
-        .active {
-	background-color: #ffffff;
-	color: rgb(51, 51, 51);
-}
-.NavWrapper ul li {
-	display: block !important;
- padding: .8rem 0rem !important
-}
-/* MOBILE GLOBAL STYLES - DO NOT CHANGE */
-        body,  .tb_properties {
-	font-family: Arial !important;
-	font-size: 16px !important;
-	color: #808080 !important;
-	line-height: 1 !important;
-	padding: 0px !important;
-}
-.buttonstyles {
-	font-family: Arial !important;
-	font-size: 16px !important;
-	color: #FFFFFF !important;
-	padding: 0px !important;
-}
-h1 {
-	font-family: Arial !important;
-	font-size: 22px !important;
-	color: #202020 !important;
-	line-height: 1 !important;
-}
-h2 {
-	font-family: Arial !important;
-	font-size: 20px !important;
-	color: #202020 !important;
-	line-height: 1 !important;
-}
-h3 {
-	font-family: Arial !important;
-	font-size: 18px !important;
-	color: #202020 !important;
-	line-height: 1 !important;
-}
-a:not(.buttonstyles) {
-	line-height: 1 !important;
-}
-.mobile-hidden {
-	display: none !important;
-}
-.responsive-td {
-	width: 100% !important;
-	display: block !important;
-	padding: 0 !important;
-}
-/* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        display: block;
     }
- @media only screen and (max-width: 375px) {
-.LogoWrapper {
-	display: inline-block;
-	width: 65%;
-	padding-left: 10px;
-}
-}
- @media only screen and (max-width: 320px) {
-.LogoWrapper {
-	display: inline-block;
-	width: 60%;
-	padding-left: 10px;
-}
-}
+
+    /* Style the checkmark/indicator */
+    .container-checkbox2 .checkmark:after {
+        left: 10px;
+        top: 5px;
+        width: 5px;
+        height: 13px;
+        border: solid #1ba2ad;
+        border-width: 0 1px 1px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .DropArrow {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 28px;
+        width: 28px;
+        z-index: 1;
+    }
+
+    .DropArrow:after {
+        left: 10px;
+        top: 10px;
+        width: 8px;
+        height: 8px;
+        border: solid #1ba2ad;
+        border-width: 0 1px 1px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        display: block;
+        position: absolute;
+        content: "";
+    }
+
+    .error-message {
+        position: absolute;
+        margin-top: 5px;
+        color: #F00;
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .preferences {
+            margin: 0 10px;
+        }
+
+        .vertical_row {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px 10px;
+        }
+
+        .vertical_title {
+            font-weight: 800;
+            font-size: 16px;
+        }
+
+        .vertical_select {
+            flex-direction: column;
+            width: 100%;
+            align-items: flex-start;
+        }
+
+        .vertical_label {
+            padding: 8px 0;
+        }
+
+        .select_box {
+            margin: 0;
+            flex: 1;
+            width: 100%;
+        }
+
+        .unsub_container {
+            padding: 20px 0;
+        }
+
+        .button {
+            width: 100%;
+        }
+
+        .ContentBoxRow label {
+            font-size: 13px !important;
+            word-wrap: break-word;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .mobile-hidden {
+            display: none !important;
+        }
+
+        .responsive-td {
+            width: 100% !important;
+            display: block !important;
+            padding-right: 0 !important;
+        }
+
+        .header .container {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
+        .LogoWrapper {
+            display: inline-block;
+            width: 70%;
+            padding-left: 10px;
+        }
+
+        .LogoWrapper img {
+            width: 100%;
+            position: relative;
+        }
+
+        .FooterBottom .responsive-td {
+            text-align: center !important;
+            margin-bottom: 10px;
+        }
+
+        .SectionWrapper {
+            padding-left: 20px;
+            padding-right: 20px;
+            position: relative;
+        }
+
+        .ContentBoxRow,
+        .ContentBoxRow.last-child {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .responsive-td.non-stack {
+            display: inline-block !important;
+            width: 49% !important;
+            position: relative;
+        }
+
+        .non-stack.section-icon {
+            width: 15% !important;
+            display: inline-block !important;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        .non-stack.section-icon img {
+            width: 100%;
+            position: relative;
+            height: auto;
+        }
+
+        .non-stack.section-icon svg {
+            width: 100%;
+            position: relative;
+            height: auto;
+        }
+
+        .non-stack.section-fields {
+            width: 65% !important;
+            display: inline-block !important;
+            position: relative;
+            position: relative;
+        }
+
+        .non-stack.section-checkbox {
+            width: 70% !important;
+            display: inline-block;
+            position: relative;
+        }
+
+        .ContentBoxSmall {
+            width: 100% !important;
+            position: relative !important;
+            max-width: 100% !important;
+            margin-right: 0px !important;
+        }
+
+        .TopRightMenuWrapper {
+            display: none;
+        }
+
+        /* Style the navigation menu */
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(51, 51, 51);
+            position: relative;
+        }
+
+        /* Hide the links inside the navigation menu (except for logo/home) */
+        .topnav #TopMenu {
+            display: none;
+        }
+
+        /* Style navigation menu links */
+        .topnav a {
+            color: black;
+            padding: 0px;
+            text-decoration: none;
+            font-size: 17px;
+            display: inline-block;
+        }
+
+        /* Style the hamburger menu */
+        .topnav .IconWrapper {
+            display: inline-block;
+            position: relative;
+            width: 40px;
+            vertical-align: top;
+            padding: 0px 5px;
+        }
+
+        .MobileTopRightMenu {
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+            font-size: 16px;
+        }
+
+        .IconWrapper2 {
+            display: inline-block;
+            position: relative;
+            width: 30px;
+            vertical-align: top;
+            padding: 20px 5px 0px;
+        }
+
+        .topnav a.hamburger-icon {
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 25%
+        }
+
+        /* Add a grey background color on mouse-over */
+        .topnav a:hover {
+            color: black;
+        }
+
+        /* Style the active link (or home/logo) */
+        .active {
+            background-color: #ffffff;
+            color: rgb(51, 51, 51);
+        }
+
+        .NavWrapper ul li {
+            display: block !important;
+            padding: .8rem 0rem !important
+        }
+
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body,
+        .tb_properties {
+            font-family: Arial !important;
+            font-size: 16px !important;
+            color: #808080 !important;
+            line-height: 1 !important;
+            padding: 0px !important;
+        }
+
+        .buttonstyles {
+            font-family: Arial !important;
+            font-size: 16px !important;
+            color: #FFFFFF !important;
+            padding: 0px !important;
+        }
+
+        h1 {
+            font-family: Arial !important;
+            font-size: 22px !important;
+            color: #202020 !important;
+            line-height: 1 !important;
+        }
+
+        h2 {
+            font-family: Arial !important;
+            font-size: 20px !important;
+            color: #202020 !important;
+            line-height: 1 !important;
+        }
+
+        h3 {
+            font-family: Arial !important;
+            font-size: 18px !important;
+            color: #202020 !important;
+            line-height: 1 !important;
+        }
+
+        a:not(.buttonstyles) {
+            line-height: 1 !important;
+        }
+
+        .mobile-hidden {
+            display: none !important;
+        }
+
+        .responsive-td {
+            width: 100% !important;
+            display: block !important;
+            padding: 0 !important;
+        }
+
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+    }
+
+    @media only screen and (max-width: 375px) {
+        .LogoWrapper {
+            display: inline-block;
+            width: 65%;
+            padding-left: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        .LogoWrapper {
+            display: inline-block;
+            width: 60%;
+            padding-left: 10px;
+        }
+    }
+
 /*!
  * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/)
  */
 .flag {
-	display: inline-block;
-	position: relative;
-	width: 16px;
-	height: 11px;
-	background: url('https://www.flag-sprites.com/img/flags.png') no-repeat
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 11px;
+    background: url('https://www.flag-sprites.com/img/flags.png') no-repeat
 }
+
 .flag.flag-gu {
-	background-position: -96px -55px
+    background-position: -96px -55px
 }
+
 .flag.flag-mn {
-	background-position: -208px -88px
+    background-position: -208px -88px
 }
+
 .flag.flag-va {
-	background-position: -48px -154px
+    background-position: -48px -154px
 }
+
 .flag.flag-tibet {
-	background-position: -32px -143px
+    background-position: -32px -143px
 }
+
 .flag.flag-fo {
-	background-position: -64px -44px
+    background-position: -64px -44px
 }
+
 .flag.flag-th {
-	background-position: -16px -143px
+    background-position: -16px -143px
 }
+
 .flag.flag-tr {
-	background-position: -144px -143px
+    background-position: -144px -143px
 }
+
 .flag.flag-tl {
-	background-position: -80px -143px
+    background-position: -80px -143px
 }
+
 .flag.flag-kz {
-	background-position: -144px -77px
+    background-position: -144px -77px
 }
+
 .flag.flag-zm {
-	background-position: -16px -165px
+    background-position: -16px -165px
 }
+
 .flag.flag-uz {
-	background-position: -32px -154px
+    background-position: -32px -154px
 }
+
 .flag.flag-dk {
-	background-position: -64px -33px
+    background-position: -64px -33px
 }
+
 .flag.flag-scotland {
-	background-position: -176px -121px
+    background-position: -176px -121px
 }
+
 .flag.flag-gi {
-	background-position: -224px -44px
+    background-position: -224px -44px
 }
+
 .flag.flag-gy {
-	background-position: -128px -55px
+    background-position: -128px -55px
 }
+
 .flag.flag-bj {
-	background-position: -112px -11px
+    background-position: -112px -11px
 }
+
 .flag.flag-fr {
-	background-position: -80px -44px
+    background-position: -80px -44px
 }
+
 .flag.flag-mo {
-	background-position: -224px -88px
+    background-position: -224px -88px
 }
+
 .flag.flag-ir {
-	background-position: -112px -66px
+    background-position: -112px -66px
 }
+
 .flag.flag-io {
-	background-position: -80px -66px
+    background-position: -80px -66px
 }
+
 .flag.flag-tm {
-	background-position: -96px -143px
+    background-position: -96px -143px
 }
+
 .flag.flag-ch {
-	background-position: -96px -22px
+    background-position: -96px -22px
 }
+
 .flag.flag-mt {
-	background-position: -32px -99px
+    background-position: -32px -99px
 }
+
 .flag.flag-nl {
-	background-position: -240px -99px
+    background-position: -240px -99px
 }
+
 .flag.flag-gp {
-	background-position: -16px -55px
+    background-position: -16px -55px
 }
+
 .flag.flag-im {
-	background-position: -48px -66px
+    background-position: -48px -66px
 }
+
 .flag.flag-tv {
-	background-position: -176px -143px
+    background-position: -176px -143px
 }
+
 .flag.flag-mu {
-	background-position: -48px -99px
+    background-position: -48px -99px
 }
+
 .flag.flag-pe {
-	background-position: -96px -110px
+    background-position: -96px -110px
 }
+
 .flag.flag-vi {
-	background-position: -112px -154px
+    background-position: -112px -154px
 }
+
 .flag.flag-hn {
-	background-position: -176px -55px
+    background-position: -176px -55px
 }
+
 .flag.flag-ss {
-	background-position: -128px -132px
+    background-position: -128px -132px
 }
+
 .flag.flag-ae {
-	background-position: -16px 0
+    background-position: -16px 0
 }
+
 .flag.flag-td {
-	background-position: -240px -132px
+    background-position: -240px -132px
 }
+
 .flag.flag-pw {
-	background-position: 0 -121px
+    background-position: 0 -121px
 }
+
 .flag.flag-nu {
-	background-position: -32px -110px
+    background-position: -32px -110px
 }
+
 .flag.flag-bt {
-	background-position: -208px -11px
+    background-position: -208px -11px
 }
+
 .flag.flag-ms {
-	background-position: -16px -99px
+    background-position: -16px -99px
 }
+
 .flag.flag-cv {
-	background-position: -240px -22px
+    background-position: -240px -22px
 }
+
 .flag.flag-es {
-	background-position: -224px -33px
+    background-position: -224px -33px
 }
+
 .flag.flag-mh {
-	background-position: -144px -88px
+    background-position: -144px -88px
 }
+
 .flag.flag-la {
-	background-position: -160px -77px
+    background-position: -160px -77px
 }
+
 .flag.flag-vn {
-	background-position: -128px -154px
+    background-position: -128px -154px
 }
+
 .flag.flag-py {
-	background-position: -16px -121px
+    background-position: -16px -121px
 }
+
 .flag.flag-br {
-	background-position: -176px -11px
+    background-position: -176px -11px
 }
+
 .flag.flag-ye {
-	background-position: -224px -154px
+    background-position: -224px -154px
 }
+
 .flag.flag-ie {
-	background-position: 0 -66px
+    background-position: 0 -66px
 }
+
 .flag.flag-gh {
-	background-position: -208px -44px
+    background-position: -208px -44px
 }
+
 .flag.flag-cg {
-	background-position: -80px -22px
+    background-position: -80px -22px
 }
+
 .flag.flag-cu {
-	background-position: -224px -22px
+    background-position: -224px -22px
 }
+
 .flag.flag-hu {
-	background-position: -224px -55px
+    background-position: -224px -55px
 }
+
 .flag.flag-sg {
-	background-position: -224px -121px
+    background-position: -224px -121px
 }
+
 .flag.flag-at {
-	background-position: -176px 0
+    background-position: -176px 0
 }
+
 .flag.flag-lk {
-	background-position: -224px -77px
+    background-position: -224px -77px
 }
+
 .flag.flag-vu {
-	background-position: -144px -154px
+    background-position: -144px -154px
 }
+
 .flag.flag-bo {
-	background-position: -160px -11px
+    background-position: -160px -11px
 }
+
 .flag.flag-jo {
-	background-position: -208px -66px
+    background-position: -208px -66px
 }
+
 .flag.flag-er {
-	background-position: -208px -33px
+    background-position: -208px -33px
 }
+
 .flag.flag-za {
-	background-position: -256px -154px
+    background-position: -256px -154px
 }
+
 .flag.flag-rs {
-	background-position: -80px -121px
+    background-position: -80px -121px
 }
+
 .flag.flag-nr {
-	background-position: -16px -110px
+    background-position: -16px -110px
 }
+
 .flag.flag-ls {
-	background-position: -256px -77px
+    background-position: -256px -77px
 }
+
 .flag.flag-jm {
-	background-position: -192px -66px
+    background-position: -192px -66px
 }
+
 .flag.flag-tz {
-	background-position: -208px -143px
+    background-position: -208px -143px
 }
+
 .flag.flag-ki {
-	background-position: -16px -77px
+    background-position: -16px -77px
 }
+
 .flag.flag-sj {
-	background-position: 0 -132px
+    background-position: 0 -132px
 }
+
 .flag.flag-cz {
-	background-position: -16px -33px
+    background-position: -16px -33px
 }
+
 .flag.flag-pg {
-	background-position: -128px -110px
+    background-position: -128px -110px
 }
+
 .flag.flag-lv {
-	background-position: -32px -88px
+    background-position: -32px -88px
 }
+
 .flag.flag-do {
-	background-position: -96px -33px
+    background-position: -96px -33px
 }
+
 .flag.flag-lu {
-	background-position: -16px -88px
+    background-position: -16px -88px
 }
+
 .flag.flag-no {
-	background-position: -256px -99px
+    background-position: -256px -99px
 }
+
 .flag.flag-kw {
-	background-position: -112px -77px
+    background-position: -112px -77px
 }
+
 .flag.flag-mx {
-	background-position: -96px -99px
+    background-position: -96px -99px
 }
+
 .flag.flag-yt {
-	background-position: -240px -154px
+    background-position: -240px -154px
 }
+
 .flag.flag-ly {
-	background-position: -48px -88px
+    background-position: -48px -88px
 }
+
 .flag.flag-cy {
-	background-position: 0 -33px
+    background-position: 0 -33px
 }
+
 .flag.flag-ph {
-	background-position: -144px -110px
+    background-position: -144px -110px
 }
+
 .flag.flag-my {
-	background-position: -112px -99px
+    background-position: -112px -99px
 }
+
 .flag.flag-sm {
-	background-position: -48px -132px
+    background-position: -48px -132px
 }
+
 .flag.flag-et {
-	background-position: -240px -33px
+    background-position: -240px -33px
 }
+
 .flag.flag-ru {
-	background-position: -96px -121px
+    background-position: -96px -121px
 }
+
 .flag.flag-tj {
-	background-position: -48px -143px
+    background-position: -48px -143px
 }
+
 .flag.flag-ai {
-	background-position: -64px 0
+    background-position: -64px 0
 }
+
 .flag.flag-pl {
-	background-position: -176px -110px
+    background-position: -176px -110px
 }
+
 .flag.flag-kp {
-	background-position: -64px -77px
+    background-position: -64px -77px
 }
+
 .flag.flag-uy {
-	background-position: -16px -154px
+    background-position: -16px -154px
 }
+
 .flag.flag-gb {
-	background-position: -112px -44px
+    background-position: -112px -44px
 }
+
 .flag.flag-gs {
-	background-position: -64px -55px
+    background-position: -64px -55px
 }
+
 .flag.flag-kurdistan {
-	background-position: -96px -77px
+    background-position: -96px -77px
 }
+
 .flag.flag-rw {
-	background-position: -112px -121px
+    background-position: -112px -121px
 }
+
 .flag.flag-ec {
-	background-position: -128px -33px
+    background-position: -128px -33px
 }
+
 .flag.flag-mm {
-	background-position: -192px -88px
+    background-position: -192px -88px
 }
+
 .flag.flag-pa {
-	background-position: -80px -110px
+    background-position: -80px -110px
 }
+
 .flag.flag-wales {
-	background-position: -160px -154px
+    background-position: -160px -154px
 }
+
 .flag.flag-kg {
-	background-position: -256px -66px
+    background-position: -256px -66px
 }
+
 .flag.flag-ve {
-	background-position: -80px -154px
+    background-position: -80px -154px
 }
+
 .flag.flag-tk {
-	background-position: -64px -143px
+    background-position: -64px -143px
 }
+
 .flag.flag-ca {
-	background-position: -16px -22px
+    background-position: -16px -22px
 }
+
 .flag.flag-is {
-	background-position: -128px -66px
+    background-position: -128px -66px
 }
+
 .flag.flag-ke {
-	background-position: -240px -66px
+    background-position: -240px -66px
 }
+
 .flag.flag-ro {
-	background-position: -64px -121px
+    background-position: -64px -121px
 }
+
 .flag.flag-gq {
-	background-position: -32px -55px
+    background-position: -32px -55px
 }
+
 .flag.flag-pt {
-	background-position: -256px -110px
+    background-position: -256px -110px
 }
+
 .flag.flag-tf {
-	background-position: -256px -132px
+    background-position: -256px -132px
 }
+
 .flag.flag-ad {
-	background-position: 0 0
+    background-position: 0 0
 }
+
 .flag.flag-sk {
-	background-position: -16px -132px
+    background-position: -16px -132px
 }
+
 .flag.flag-pm {
-	background-position: -192px -110px
+    background-position: -192px -110px
 }
+
 .flag.flag-om {
-	background-position: -64px -110px
+    background-position: -64px -110px
 }
+
 .flag.flag-an {
-	background-position: -112px 0
+    background-position: -112px 0
 }
+
 .flag.flag-ws {
-	background-position: -192px -154px
+    background-position: -192px -154px
 }
+
 .flag.flag-sh {
-	background-position: -240px -121px
+    background-position: -240px -121px
 }
+
 .flag.flag-mp {
-	background-position: -240px -88px
+    background-position: -240px -88px
 }
+
 .flag.flag-gt {
-	background-position: -80px -55px
+    background-position: -80px -55px
 }
+
 .flag.flag-cf {
-	background-position: -64px -22px
+    background-position: -64px -22px
 }
+
 .flag.flag-zanzibar {
-	background-position: 0 -165px
+    background-position: 0 -165px
 }
+
 .flag.flag-mw {
-	background-position: -80px -99px
+    background-position: -80px -99px
 }
+
 .flag.flag-catalonia {
-	background-position: -32px -22px
+    background-position: -32px -22px
 }
+
 .flag.flag-ug {
-	background-position: -240px -143px
+    background-position: -240px -143px
 }
+
 .flag.flag-je {
-	background-position: -176px -66px
+    background-position: -176px -66px
 }
+
 .flag.flag-km {
-	background-position: -32px -77px
+    background-position: -32px -77px
 }
+
 .flag.flag-in {
-	background-position: -64px -66px
+    background-position: -64px -66px
 }
+
 .flag.flag-bf {
-	background-position: -48px -11px
+    background-position: -48px -11px
 }
+
 .flag.flag-mc {
-	background-position: -80px -88px
+    background-position: -80px -88px
 }
+
 .flag.flag-sy {
-	background-position: -192px -132px
+    background-position: -192px -132px
 }
+
 .flag.flag-sn {
-	background-position: -64px -132px
+    background-position: -64px -132px
 }
+
 .flag.flag-kr {
-	background-position: -80px -77px
+    background-position: -80px -77px
 }
+
 .flag.flag-eu {
-	background-position: -256px -33px
+    background-position: -256px -33px
 }
+
 .flag.flag-bn {
-	background-position: -144px -11px
+    background-position: -144px -11px
 }
+
 .flag.flag-st {
-	background-position: -144px -132px
+    background-position: -144px -132px
 }
+
 .flag.flag-england {
-	background-position: -192px -33px
+    background-position: -192px -33px
 }
+
 .flag.flag-lc {
-	background-position: -192px -77px
+    background-position: -192px -77px
 }
+
 .flag.flag-dm {
-	background-position: -80px -33px
+    background-position: -80px -33px
 }
+
 .flag.flag-be {
-	background-position: -32px -11px
+    background-position: -32px -11px
 }
+
 .flag.flag-ni {
-	background-position: -224px -99px
+    background-position: -224px -99px
 }
+
 .flag.flag-ua {
-	background-position: -224px -143px
+    background-position: -224px -143px
 }
+
 .flag.flag-mz {
-	background-position: -128px -99px
+    background-position: -128px -99px
 }
+
 .flag.flag-pf {
-	background-position: -112px -110px
+    background-position: -112px -110px
 }
+
 .flag.flag-tn {
-	background-position: -112px -143px
+    background-position: -112px -143px
 }
+
 .flag.flag-ee {
-	background-position: -144px -33px
+    background-position: -144px -33px
 }
+
 .flag.flag-xk {
-	background-position: -208px -154px
+    background-position: -208px -154px
 }
+
 .flag.flag-sx {
-	background-position: -176px -132px
+    background-position: -176px -132px
 }
+
 .flag.flag-sd {
-	background-position: -192px -121px
+    background-position: -192px -121px
 }
+
 .flag.flag-gd {
-	background-position: -128px -44px
+    background-position: -128px -44px
 }
+
 .flag.flag-ci {
-	background-position: -112px -22px
+    background-position: -112px -22px
 }
+
 .flag.flag-sz {
-	background-position: -208px -132px
+    background-position: -208px -132px
 }
+
 .flag.flag-cl {
-	background-position: -144px -22px
+    background-position: -144px -22px
 }
+
 .flag.flag-fi {
-	background-position: 0 -44px
+    background-position: 0 -44px
 }
+
 .flag.flag-ga {
-	background-position: -96px -44px
+    background-position: -96px -44px
 }
+
 .flag.flag-jp {
-	background-position: -224px -66px
+    background-position: -224px -66px
 }
+
 .flag.flag-de {
-	background-position: -32px -33px
+    background-position: -32px -33px
 }
+
 .flag.flag-np {
-	background-position: 0 -110px
+    background-position: 0 -110px
 }
+
 .flag.flag-re {
-	background-position: -48px -121px
+    background-position: -48px -121px
 }
+
 .flag.flag-bg {
-	background-position: -64px -11px
+    background-position: -64px -11px
 }
+
 .flag.flag-sc {
-	background-position: -160px -121px
+    background-position: -160px -121px
 }
+
 .flag.flag-ng {
-	background-position: -208px -99px
+    background-position: -208px -99px
 }
+
 .flag.flag-qa {
-	background-position: -32px -121px
+    background-position: -32px -121px
 }
+
 .flag.flag-mk {
-	background-position: -160px -88px
+    background-position: -160px -88px
 }
+
 .flag.flag-aw {
-	background-position: -208px 0
+    background-position: -208px 0
 }
+
 .flag.flag-kn {
-	background-position: -48px -77px
+    background-position: -48px -77px
 }
+
 .flag.flag-al {
-	background-position: -80px 0
+    background-position: -80px 0
 }
+
 .flag.flag-bw {
-	background-position: -240px -11px
+    background-position: -240px -11px
 }
+
 .flag.flag-um {
-	background-position: -256px -143px
+    background-position: -256px -143px
 }
+
 .flag.flag-ky {
-	background-position: -128px -77px
+    background-position: -128px -77px
 }
+
 .flag.flag-tt {
-	background-position: -160px -143px
+    background-position: -160px -143px
 }
+
 .flag.flag-so {
-	background-position: -80px -132px
+    background-position: -80px -132px
 }
+
 .flag.flag-lt {
-	background-position: 0 -88px
+    background-position: 0 -88px
 }
+
 .flag.flag-by {
-	background-position: -256px -11px
+    background-position: -256px -11px
 }
+
 .flag.flag-bb {
-	background-position: 0 -11px
+    background-position: 0 -11px
 }
+
 .flag.flag-us {
-	background-position: 0 -154px
+    background-position: 0 -154px
 }
+
 .flag.flag-md {
-	background-position: -96px -88px
+    background-position: -96px -88px
 }
+
 .flag.flag-ag {
-	background-position: -48px 0
+    background-position: -48px 0
 }
+
 .flag.flag-hm {
-	background-position: -160px -55px
+    background-position: -160px -55px
 }
+
 .flag.flag-as {
-	background-position: -160px 0
+    background-position: -160px 0
 }
+
 .flag.flag-eg {
-	background-position: -160px -33px
+    background-position: -160px -33px
 }
+
 .flag.flag-sv {
-	background-position: -160px -132px
+    background-position: -160px -132px
 }
+
 .flag.flag-sl {
-	background-position: -32px -132px
+    background-position: -32px -132px
 }
+
 .flag.flag-fk {
-	background-position: -32px -44px
+    background-position: -32px -44px
 }
+
 .flag.flag-am {
-	background-position: -96px 0
+    background-position: -96px 0
 }
+
 .flag.flag-ck {
-	background-position: -128px -22px
+    background-position: -128px -22px
 }
+
 .flag.flag-tw {
-	background-position: -192px -143px
+    background-position: -192px -143px
 }
+
 .flag.flag-kh {
-	background-position: 0 -77px
+    background-position: 0 -77px
 }
+
 .flag.flag-to {
-	background-position: -128px -143px
+    background-position: -128px -143px
 }
+
 .flag.flag-se {
-	background-position: -208px -121px
+    background-position: -208px -121px
 }
+
 .flag.flag-cd {
-	background-position: -48px -22px
+    background-position: -48px -22px
 }
+
 .flag.flag-pn {
-	background-position: -208px -110px
+    background-position: -208px -110px
 }
+
 .flag.flag-gr {
-	background-position: -48px -55px
+    background-position: -48px -55px
 }
+
 .flag.flag-id {
-	background-position: -256px -55px
+    background-position: -256px -55px
 }
+
 .flag.flag-vc {
-	background-position: -64px -154px
+    background-position: -64px -154px
 }
+
 .flag.flag-somaliland {
-	background-position: -96px -132px
+    background-position: -96px -132px
 }
+
 .flag.flag-bi {
-	background-position: -96px -11px
+    background-position: -96px -11px
 }
+
 .flag.flag-pk {
-	background-position: -160px -110px
+    background-position: -160px -110px
 }
+
 .flag.flag-pr {
-	background-position: -224px -110px
+    background-position: -224px -110px
 }
+
 .flag.flag-bd {
-	background-position: -16px -11px
+    background-position: -16px -11px
 }
+
 .flag.flag-co {
-	background-position: -192px -22px
+    background-position: -192px -22px
 }
+
 .flag.flag-fm {
-	background-position: -48px -44px
+    background-position: -48px -44px
 }
+
 .flag.flag-bm {
-	background-position: -128px -11px
+    background-position: -128px -11px
 }
+
 .flag.flag-ar {
-	background-position: -144px 0
+    background-position: -144px 0
 }
+
 .flag.flag-bv {
-	background-position: -224px -11px
+    background-position: -224px -11px
 }
+
 .flag.flag-sb {
-	background-position: -144px -121px
+    background-position: -144px -121px
 }
+
 .flag.flag-mq {
-	background-position: -256px -88px
+    background-position: -256px -88px
 }
+
 .flag.flag-eh {
-	background-position: -176px -33px
+    background-position: -176px -33px
 }
+
 .flag.flag-bh {
-	background-position: -80px -11px
+    background-position: -80px -11px
 }
+
 .flag.flag-it {
-	background-position: -144px -66px
+    background-position: -144px -66px
 }
+
 .flag.flag-hr {
-	background-position: -192px -55px
+    background-position: -192px -55px
 }
+
 .flag.flag-sa {
-	background-position: -128px -121px
+    background-position: -128px -121px
 }
+
 .flag.flag-mv {
-	background-position: -64px -99px
+    background-position: -64px -99px
 }
+
 .flag.flag-mg {
-	background-position: -128px -88px
+    background-position: -128px -88px
 }
+
 .flag.flag-dz {
-	background-position: -112px -33px
+    background-position: -112px -33px
 }
+
 .flag.flag-gg {
-	background-position: -192px -44px
+    background-position: -192px -44px
 }
+
 .flag.flag-gm {
-	background-position: -256px -44px
+    background-position: -256px -44px
 }
+
 .flag.flag-af {
-	background-position: -32px 0
+    background-position: -32px 0
 }
+
 .flag.flag-li {
-	background-position: -208px -77px
+    background-position: -208px -77px
 }
+
 .flag.flag-sr {
-	background-position: -112px -132px
+    background-position: -112px -132px
 }
+
 .flag.flag-vg {
-	background-position: -96px -154px
+    background-position: -96px -154px
 }
+
 .flag.flag-cr {
-	background-position: -208px -22px
+    background-position: -208px -22px
 }
+
 .flag.flag-tc {
-	background-position: -224px -132px
+    background-position: -224px -132px
 }
+
 .flag.flag-ao {
-	background-position: -128px 0
+    background-position: -128px 0
 }
+
 .flag.flag-ma {
-	background-position: -64px -88px
+    background-position: -64px -88px
 }
+
 .flag.flag-mr {
-	background-position: 0 -99px
+    background-position: 0 -99px
 }
+
 .flag.flag-gn {
-	background-position: 0 -55px
+    background-position: 0 -55px
 }
+
 .flag.flag-ne {
-	background-position: -176px -99px
+    background-position: -176px -99px
 }
+
 .flag.flag-nf {
-	background-position: -192px -99px
+    background-position: -192px -99px
 }
+
 .flag.flag-wf {
-	background-position: -176px -154px
+    background-position: -176px -154px
 }
+
 .flag.flag-hk {
-	background-position: -144px -55px
+    background-position: -144px -55px
 }
+
 .flag.flag-gf {
-	background-position: -160px -44px
+    background-position: -160px -44px
 }
+
 .flag.flag-ps {
-	background-position: -240px -110px
+    background-position: -240px -110px
 }
+
 .flag.flag-ic {
-	background-position: -240px -55px
+    background-position: -240px -55px
 }
+
 .flag.flag-cw {
-	background-position: -256px -22px
+    background-position: -256px -22px
 }
+
 .flag.flag-ml {
-	background-position: -176px -88px
+    background-position: -176px -88px
 }
+
 .flag.flag-ax {
-	background-position: -224px 0
+    background-position: -224px 0
 }
+
 .flag.flag-gl {
-	background-position: -240px -44px
+    background-position: -240px -44px
 }
+
 .flag.flag-dj {
-	background-position: -48px -33px
+    background-position: -48px -33px
 }
+
 .flag.flag-cn {
-	background-position: -176px -22px
+    background-position: -176px -22px
 }
+
 .flag.flag-ht {
-	background-position: -208px -55px
+    background-position: -208px -55px
 }
+
 .flag.flag-lr {
-	background-position: -240px -77px
+    background-position: -240px -77px
 }
+
 .flag.flag-tg {
-	background-position: 0 -143px
+    background-position: 0 -143px
 }
+
 .flag.flag-ba {
-	background-position: -256px 0
+    background-position: -256px 0
 }
+
 .flag.flag-ge {
-	background-position: -144px -44px
+    background-position: -144px -44px
 }
+
 .flag.flag-bz {
-	background-position: 0 -22px
+    background-position: 0 -22px
 }
+
 .flag.flag-au {
-	background-position: -192px 0
+    background-position: -192px 0
 }
+
 .flag.flag-iq {
-	background-position: -96px -66px
+    background-position: -96px -66px
 }
+
 .flag.flag-cm {
-	background-position: -160px -22px
+    background-position: -160px -22px
 }
+
 .flag.flag-gw {
-	background-position: -112px -55px
+    background-position: -112px -55px
 }
+
 .flag.flag-az {
-	background-position: -240px 0
+    background-position: -240px 0
 }
+
 .flag.flag-na {
-	background-position: -144px -99px
+    background-position: -144px -99px
 }
+
 .flag.flag-fj {
-	background-position: -16px -44px
+    background-position: -16px -44px
 }
+
 .flag.flag-zw {
-	background-position: -32px -165px
+    background-position: -32px -165px
 }
+
 .flag.flag-bs {
-	background-position: -192px -11px
+    background-position: -192px -11px
 }
+
 .flag.flag-il {
-	background-position: -16px -66px
+    background-position: -16px -66px
 }
+
 .flag.flag-nz {
-	background-position: -48px -110px
+    background-position: -48px -110px
 }
+
 .flag.flag-me {
-	background-position: -112px -88px
+    background-position: -112px -88px
 }
+
 .flag.flag-si {
-	background-position: -256px -121px
+    background-position: -256px -121px
 }
+
 .flag.flag-nc {
-	background-position: -160px -99px
+    background-position: -160px -99px
 }
+
 .flag.flag-lb {
-	background-position: -176px -77px
+    background-position: -176px -77px
 }
+
+
 .alert1 {
-	padding: 8px 35px 8px 14px;
-	margin-bottom: 18px;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	background-color: #fcf8e3;
-	border: 1px solid #fbeed5;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	color: #c09853;
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #c09853;
 }
 .alert-heading1 {
-	color: inherit;
+  color: inherit;
 }
 .alert-success1 {
-	background-color: #dff0d8;
-	border-color: #d6e9c6;
-	color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
 }
-.alert-danger1, .alert-error1 {
-	background-color: #f2dede;
-	border-color: #eed3d7;
-	color: #b94a48;
+.alert-danger1,
+.alert-error1 {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
 }
 .alert-info1 {
-	background-color: #d9edf7;
-	border-color: #bce8f1;
-	color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
 }
 .alert-block1 {
-	padding-top: 14px;
-	padding-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
-.alert-block1 > p, .alert-block > ul {
-	margin-bottom: 0;
+.alert-block1 > p,
+.alert-block > ul {
+  margin-bottom: 0;
 }
 .alert-block1 p + p {
-	margin-top: 5px;
-}
-</style>
-    </head>
+  margin-top: 5px;
+}</style>
+</head>
 
-    <body>
-<!--Email:%%=v(@email)=%%--> 
-%%[ IF @loadSource != 'web' THEN ]%%
-<div class="topnav">
-      <div class="header">
-    <div class="container-fluid">
-          <div class="container">
-        <div class="LogoWrapper"> <a href="https://luxuryescapes.com/au/"><img alt="Luxury Escapes" src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/53d3d01b-0311-4620-af6b-f73c61077fc2.jpg"></a> </div>
-      </div>
+<body>
+<!--Email:shd.inx@gmail.com-->
+
+    <div class="topnav">
+        <div class="header">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="LogoWrapper"> <a href="https://luxuryescapes.com/au/"><img alt="Luxury Escapes" src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/53d3d01b-0311-4620-af6b-f73c61077fc2.jpg"></a> </div>
+                </div>
+            </div>
         </div>
-  </div>
     </div>
-%%[ ENDIF ]%% 
 
-<!-- end header -->
-<div class="container-fluid MainContentWrapper">
-      <div class="container"> %%[ IF @isImpersonated == 1 THEN ]%%
-    <div class="alert1 alert-block1">
-          <h2 class="alert-heading1"><strong>Warning!</strong></h2>
-          You are impersonating: %%=v(@email)=%% %%=v(@loadSource)=%% </div>
-    %%[ ENDIF ]%%
-    <form action="%%=v(@formAction)=%%" method="post">
-          <div class="content-row" align="right">
-        <input type="submit" name="submit" value="%%=v(@i18n_submit)=%%" class="GreenButton" />
-      </div>
-          <h1 class="ContentHeader">%%=v(@i18n_mainHeadline)=%%</h1>
-          <h2 class="ContentSubHeader">%%=v(@i18n_headline1)=%%</h2>
-          <div class="SectionWrapper">
-        <div class="content-row">%%=v(@i18n_subHeadline1)=%%<br />
-              <br />
-              <div class="ContentBox">
-            <div class="ContentBoxRow last-child">
-                  <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"><svg type="third" viewBox="0 0 16 20.52" fill="#00a3ad" height="40" width="40" class="dkttk6-0 dZFSFd">
-                    <path d="M8 3a5 5 0 105 5 5 5 0 00-5-5zM4.14 9H6a8.28 8.28 0 00.66 2.76A4 4 0 014.14 9zM6 8H4a4 4 0 012.7-3.76A9.17 9.17 0 006 8zm2 4a5.1 5.1 0 01-1-3h2a5.1 5.1 0 01-1 3zM7 8c0-2.35.67-3.72 1-4 .33.26 1 1.63 1 4zm2.3 3.76A8.28 8.28 0 0010 9h1.9a4 4 0 01-2.6 2.76zM10 8a9.17 9.17 0 00-.7-3.76A4 4 0 0112 8z"></path>
-                    <path d="M8 0a7.78 7.78 0 00-8 7.55V8c0 3 2.23 7.1 6.72 12a1.72 1.72 0 001.28.52 1.78 1.78 0 001.12-.39A1.29 1.29 0 009.3 20c4.48-4.84 6.7-8.91 6.7-12v-.45A7.78 7.78 0 008 0zm7 8c0 2.86-2.23 6.77-6.44 11.29l-.06.06a.77.77 0 01-.49.17.75.75 0 01-.56-.23C2.12 13.51 1 10 1 8v-.45A6.79 6.79 0 018 1a6.79 6.79 0 017 6.55z"></path>
-                    </svg> </div>
-                  <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
-                <div class="responsive-td" style="width:50%;padding-right:10px">
-                      <div class="FormTextBoxWrapper">
-                    <select name="Country" class="FormSelectBox" required>
-                          %%=v(@content_optionCountry)=%%
-                        </select>
-                    <span class="DropArrow"></span> </div>
-                    </div>
-                <div class="responsive-td non-stack section-checkbox" style="width:10%;padding-right:10px"> </div>
-                <div class="clear"></div>
-              </div>
-                  <div class="clear"></div>
+  
+    <!-- end header -->
+    <div class="container-fluid MainContentWrapper">
+        <div class="container">
+          
+
+        <div class="alert1 alert-block1">
+            <h2 class="alert-heading1"><strong>Warning!</strong></h2>
+            You are impersonating: shd.inx@gmail.com CRM
+        </div>
+
+          
+            <form action="https://cloud.em.luxuryescapes.com/preference-api/preference-api?qs=ef3d80fca5be18840d06a3cd95bb9de7957280d9e5a5610d9abc569dec12f89244529c1da4be0baf5bf1127defe5c417d1d8d5b480d14fadb9f1556f9e8faac36d03e80c88bbdfd909fe85263a0e3d330125d7b8cfb407b5f1f058bbcd2d22e63be7d0cfb546473fb83492376b4f41990d7051cbc3c34505081e79fab694176b7086be5bc7c6f5d0cdae287dc078733920a085eb6d0b1442cc4bc7a54bacb2c48b4a1ee8a72cc5703930e38198f456b5d348378ef54d21ee700599dcafe848c1b8ae79a33b208de43987eea3ea8a4e0925c3a768e58c93c1" method="post">
+                <div class="content-row" align="right">
+                    <input type="submit" name="submit" value="Update Preferences" class="GreenButton" />
                 </div>
-          </div>
-            </div>
-      </div>
-          <h2 class="ContentSubHeader">%%=v(@i18n_headline2)=%%</h2>
-          <div class="SectionWrapper">
-        <div class="content-row">%%=v(@i18n_subHeadline2)=%%<br />
-              <br />
-              <div class="ContentBox">
-            <div class="ContentBoxRow">
-                  <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"> <img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/351e3a4e-a227-4119-907e-6f0e896d8dd3.png" alt="" /> </div>
-                  <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
-                <div class="responsive-td" style="width:60%;padding-right:10px">
-                      <h2 class="ContentSubHeader">%%=v(@i18n_subscriptionNewsletterHeadline)=%%</h2>
-                      %%=v(@i18n_subscriptionNewsletterDescription)=%%<br />
-                      <br />
-                      <div class="FormTextBoxWrapper">
-                    <select name="Email Frequency Selection" id="Email Frequency Selection" class="FormSelectBox">
-                          %%=v(@content_optionFrequency)=%%
-                        </select>
-                    <span class="DropArrow"></span> </div>
+                <h1 class="ContentHeader">My Preferences</h1>
+                <h2 class="ContentSubHeader">Where do you live?</h2>
+                <div class="SectionWrapper">
+                    <div class="content-row">Please select your country of residence to receive exclusive travel offers in your preferred currency.<br /><br />
+                        <div class="ContentBox">
+                            <div class="ContentBoxRow last-child">
+                                <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"><svg type="third" viewBox="0 0 16 20.52" fill="#00a3ad" height="40" width="40" class="dkttk6-0 dZFSFd">
+                                        <path d="M8 3a5 5 0 105 5 5 5 0 00-5-5zM4.14 9H6a8.28 8.28 0 00.66 2.76A4 4 0 014.14 9zM6 8H4a4 4 0 012.7-3.76A9.17 9.17 0 006 8zm2 4a5.1 5.1 0 01-1-3h2a5.1 5.1 0 01-1 3zM7 8c0-2.35.67-3.72 1-4 .33.26 1 1.63 1 4zm2.3 3.76A8.28 8.28 0 0010 9h1.9a4 4 0 01-2.6 2.76zM10 8a9.17 9.17 0 00-.7-3.76A4 4 0 0112 8z"></path>
+                                        <path d="M8 0a7.78 7.78 0 00-8 7.55V8c0 3 2.23 7.1 6.72 12a1.72 1.72 0 001.28.52 1.78 1.78 0 001.12-.39A1.29 1.29 0 009.3 20c4.48-4.84 6.7-8.91 6.7-12v-.45A7.78 7.78 0 008 0zm7 8c0 2.86-2.23 6.77-6.44 11.29l-.06.06a.77.77 0 01-.49.17.75.75 0 01-.56-.23C2.12 13.51 1 10 1 8v-.45A6.79 6.79 0 018 1a6.79 6.79 0 017 6.55z"></path>
+                                    </svg> </div>
+                                <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
+                                    <div class="responsive-td" style="width:50%;padding-right:10px">
+                                        <div class="FormTextBoxWrapper">
+                                            <select name="Country" class="FormSelectBox" required><option value="AU"selected >Australia</option><option value="CA" >Canada</option><option value="CN" >China</option><option value="FR" >France</option><option value="DE" >Germany</option><option value="HK" >Hong Kong</option><option value="IN" >India</option><option value="ID" >Indonesia</option><option value="IE" >Ireland</option><option value="IL" >Israel</option><option value="IT" >Italy</option><option value="JP" >Japan</option><option value="MO" >Macau</option><option value="MY" >Malaysia</option><option value="NZ" >New Zealand</option><option value="PH" >Philippines</option><option value="QA" >Qatar</option><option value="RU" >Russia</option><option value="SA" >Saudi Arabia</option><option value="SG" >Singapore</option><option value="ZA" >South Africa</option><option value="KR" >South Korea</option><option value="ES" >Spain</option><option value="TW" >Taiwan</option><option value="TH" >Thailand</option><option value="AE" >United Arab Emirates</option><option value="GB" >United Kingdom</option><option value="US" >United States</option><option value="VN" >Vietnam</option></select>
+                                            <span class="DropArrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="responsive-td non-stack section-checkbox" style="width:10%;padding-right:10px"> </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
                     </div>
-                <div class="responsive-td" style="width:20%;padding-right:10px">&nbsp;</div>
-                <div class="responsive-td non-stack section-checkbox" style="width:18%;padding-right:10px">
-                      <div class="container-checkbox2">
-                    <label>
-                    <div class="inputcheck">
-                          <input type="checkbox" name="Newsletter" id="Newsletter" %%=v(@checkbox_SubscriptionNewsletter)=%% class="FormCheckBox" />
-                          <span></span> </div>
-                    </label>
-                  </div>
-                    </div>
-                <div class="clear"></div>
-              </div>
-                  <div class="clear"></div>
                 </div>
-            <div class="ContentBoxRow">
-                  <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"><img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/a0b2053e-f147-4144-9faf-899cd301bf0b.png" alt="" /></div>
-                  <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
-                <div class="responsive-td" style="width:60%;padding-right:10px">
-                      <h2 class="ContentSubHeader">%%=v(@i18n_subscriptionAdhocHeadline)=%%</h2>
-                      %%=v(@i18n_subscriptionAdhocDescription)=%% </div>
-                <div class="responsive-td" style="width:20%;padding-right:10px">&nbsp;</div>
-                <div class="responsive-td non-stack section-checkbox" style="width:18%;padding-right:10px">
-                      <div class="container-checkbox2">
-                    <label>
-                    <div class="inputcheck">
-                          <input type="checkbox" name="Adhoc" id="Adhoc" %%=v(@checkbox_SubscriptionAdhoc)=%% class="FormCheckBox" />
-                          <span></span> </div>
-                    </label>
-                  </div>
+                <h2 class="ContentSubHeader">What would you like to hear about?</h2>
+                <div class="SectionWrapper">
+                    <div class="content-row">Make your selection below and we'll keep you in the loop.<br /><br />
+                        <div class="ContentBox">
+                            <div class="ContentBoxRow">
+                                <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"> <img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/351e3a4e-a227-4119-907e-6f0e896d8dd3.png" alt="" /> </div>
+                                <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
+                                    <div class="responsive-td" style="width:60%;padding-right:10px">
+                                        <h2 class="ContentSubHeader">TODAY'S ESCAPES</h2>
+                                        Handcrafted deals recommended daily<br />
+                                        <br />
+                                        <div class="FormTextBoxWrapper">
+                                            <select name="Email Frequency Selection" id="Email Frequency Selection" class="FormSelectBox"><option value="default" >Please select</option><option value="daily" selected>Send me this every day</option><option value="weekly" >Once a week is enough</option><option value="monthly" >I only want a monthly summary</option></select>
+                                            <span class="DropArrow"></span>
+                                        </div>
+                                    </div>
+                                    <div class="responsive-td" style="width:20%;padding-right:10px">&nbsp;</div>
+                                    <div class="responsive-td non-stack section-checkbox" style="width:18%;padding-right:10px">
+                                        <div class="container-checkbox2">
+                                            <label>
+                                                <div class="inputcheck">
+                                                    <input type="checkbox" name="Newsletter" id="Newsletter" checked class="FormCheckBox" />
+                                                    <span></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="ContentBoxRow">
+                                <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"><img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/a0b2053e-f147-4144-9faf-899cd301bf0b.png" alt="" /></div>
+                                <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
+                                    <div class="responsive-td" style="width:60%;padding-right:10px">
+                                        <h2 class="ContentSubHeader">CURATED COLLECTIONS</h2>
+                                        Inspiring destinations and featured deals compiled by our experts
+                                    </div>
+                                    <div class="responsive-td" style="width:20%;padding-right:10px">&nbsp;</div>
+                                    <div class="responsive-td non-stack section-checkbox" style="width:18%;padding-right:10px">
+                                        <div class="container-checkbox2">
+                                            <label>
+                                                <div class="inputcheck">
+                                                    <input type="checkbox" name="Adhoc" id="Adhoc" checked class="FormCheckBox" />
+                                                    <span></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="ContentBoxRow last-child">
+                                <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"><img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/402e5ade-ca0a-45df-ae71-5803dadf36d5.png" alt="" /> </div>
+                                <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
+                                    <div class="responsive-td" style="width:60%;padding-right:10px">
+                                        <h2 class="ContentSubHeader">MY JOURNEY</h2>
+                                        Exclusive notifications personalised just for you
+                                    </div>
+                                    <div class="responsive-td" style="width:20%;padding-right:10px">&nbsp;</div>
+                                    <div class="responsive-td non-stack section-checkbox" style="width:18%;padding-right:10px">
+                                        <div class="container-checkbox2">
+                                            <label>
+                                                <div class="inputcheck">
+                                                    <input type="checkbox" name="Journey" id="Journey" checked class="FormCheckBox" />
+                                                    <span></span>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="container-checkbox2">
+                            <label>
+                                <div class="inputcheck">
+                                    <input type="checkbox" id="Email Subscribed" name="Email Subscribed"  class="FormCheckBox" />
+                                    <span></span>
+                                </div>
+                                <div class="label"><strong style="font-weight:600"><strong>Unsubscribe me from all </strong> - you will still receive emails related to orders</div>
+                            </label>
+                        </div>
                     </div>
-                <div class="clear"></div>
-              </div>
-                  <div class="clear"></div>
                 </div>
-            <div class="ContentBoxRow last-child">
-                  <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"><img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/402e5ade-ca0a-45df-ae71-5803dadf36d5.png" alt="" /> </div>
-                  <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
-                <div class="responsive-td" style="width:60%;padding-right:10px">
-                      <h2 class="ContentSubHeader">%%=v(@i18n_subscriptionJourneyHeadline)=%%</h2>
-                      %%=v(@i18n_subscriptionJourneyDescription)=%% </div>
-                <div class="responsive-td" style="width:20%;padding-right:10px">&nbsp;</div>
-                <div class="responsive-td non-stack section-checkbox" style="width:18%;padding-right:10px">
-                      <div class="container-checkbox2">
-                    <label>
-                    <div class="inputcheck">
-                          <input type="checkbox" name="Journey" id="Journey" %%=v(@checkbox_subscriptionJourney)=%% class="FormCheckBox" />
-                          <span></span> </div>
-                    </label>
-                  </div>
+                <h2 class="ContentSubHeader">Want to take a break?</h2>
+                <div class="SectionWrapper">
+                    <div class="content-row">Going on holidays or just want to take a break from Luxury Escapes? No worries - let us know how long you need.<br /><br />
+                        <div class="ContentBox">
+                            <div class="ContentBoxRow last-child">
+                                <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"> <img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/714bae50-40da-4d7c-ad3a-61f4607ba508.png" alt="" /> </div>
+                                <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
+                                    <div class="responsive-td" style="width:50%;padding-right:10px">
+                                      <input type="date" min="2020-01-31" max="2020-03-29" name="Email Frequency Snooze" class="FormTextBox" value="2020-01-31">
+                                    </div>
+                                    <div class="responsive-td non-stack section-checkbox" style="width:10%;padding-right:10px"> </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
                     </div>
-                <div class="clear"></div>
-              </div>
-                  <div class="clear"></div>
                 </div>
-          </div>
-              <br />
-              <br />
-              <div class="container-checkbox2">
-            <label>
-            <div class="inputcheck">
-                  <input type="checkbox" id="Email Subscribed" name="Email Subscribed" %%=v(@checkbox_subscriptionUnsubscribe)=%% class="FormCheckBox" />
-                  <span></span> </div>
-            <div class="label"><strong style="font-weight:600">%%=v(@i18n_subscriptionUnsubscribe)=%%</div>
-            </label>
-          </div>
-            </div>
-      </div>
-          <h2 class="ContentSubHeader">%%=v(@i18n_headline3)=%%</h2>
-          <div class="SectionWrapper">
-        <div class="content-row">%%=v(@i18n_subHeadline3)=%%<br />
-              <br />
-              <div class="ContentBox">
-            <div class="ContentBoxRow last-child">
-                  <div class="responsive-td non-stack section-icon" style="width:10%; padding-right:10px"> <img src="https://image.em.luxuryescapes.com/lib/fe3a15707564057b771077/m/2/714bae50-40da-4d7c-ad3a-61f4607ba508.png" alt="" /> </div>
-                  <div class="responsive-td non-stack section-fields" style="width:85%;padding-right:10px">
-                <div class="responsive-td" style="width:50%;padding-right:10px">
-                      <input type="date" min="%%=v(@date_snoozeMin)=%%" max="%%=v(@date_snoozeMax)=%%" name="Email Frequency Snooze" class="FormTextBox" value="%%=v(@snooze)=%%">
-                    </div>
-                <div class="responsive-td non-stack section-checkbox" style="width:10%;padding-right:10px"> </div>
-                <div class="clear"></div>
-              </div>
-                  <div class="clear"></div>
+                
+                <div class="content-row" align="right">
+                    <input type="submit" name="submit" value="Update Preferences" class="GreenButton" />
                 </div>
-          </div>
-            </div>
-      </div>
-          %%=v(@content_Preference)=%%
-          <div class="content-row" align="right">
-        <input type="submit" name="submit" value="%%=v(@i18n_submit)=%%" class="GreenButton" />
-      </div>
-        </form>
-  </div>
+            </form>
+        </div>
     </div>
-%%[ IF @loadSource != 'web' THEN ]%%
-<footer></footer>
-%%[ ENDIF ]%% 
+
+
+    <footer></footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('div.ContentBoxSmall input:checkbox').change(function() {
+                if ($(this).is(":checked")) {
+                    $(this).closest("div.ContentBoxSmall").addClass('BoxSelected');
+                } else {
+                    $(this).closest("div.ContentBoxSmall").removeClass('BoxSelected');
+                };
+            });
+        });
+
+
+        // if the optout is selected, change cadence to never, if unselected set cadence to daily
+        var unsusbcribe = document.getElementById('Email Subscribed');
+        var frequency = document.getElementById('Email Frequency Selection');
+        var newsletter = document.getElementById('Newsletter');
+        var adhoc = document.getElementById('Adhoc');
+        var journey = document.getElementById('Journey');
+
+        unsusbcribe.addEventListener('click', function(event) {
+            if (event.target.checked) {
+                frequency.selectedIndex = "0";
+                newsletter.checked = false;
+                adhoc.checked = false;
+                journey.checked = false;
+            } else {
+                var options = frequency.options;
+                for (var i = 0, optionsLength = options.length; i < optionsLength; i++) {
+                    if (options[i].value == 'daily') {
+                        frequency.selectedIndex = i;
+                    }
+                }
+                newsletter.checked = false ;
+                adhoc.checked = false ;
+                journey.checked = false ;
+            }
+        })
+        // if never is selected as cadence set optout to true
+        frequency.addEventListener('change', function(event) {
+            if (event.target.value == 'daily' 
+                || event.target.value == 'weekly' 
+                || event.target.value == 'monthly' 
+                ) {
+                unsusbcribe.checked = false
+                newsletter.checked = true
+            }
+        })
+        newsletter.addEventListener('click', function(event) {
+            unsusbcribe.checked = false
+        })
+        adhoc.addEventListener('click', function(event) {
+            unsusbcribe.checked = false
+        })
+        journey.addEventListener('click', function(event) {
+            unsusbcribe.checked = false
+        })
+
+    </script>
+
+<script>(function(a,m,i,g,o,s){o=a.createElement(g);s=a.getElementsByTagName(i)[0];o.src=m.origin+m.pathname+"/_t?eventType=CLOUDPAGESVISIT";o.width=0;o.height=0;o.style.display="none";s.appendChild(o);})(document,window.location,"body","img");</script>
+
+	<script src="https:&#x2F;&#x2F;100016247.collect.igodigital.com&#x2F;collect.js"></script>
+	<script>
+		if (_etmc && typeof _etmc.push === 'function') {
+			_etmc.push(['setOrgId', '100016247']);
+			_etmc.push(['trackPageView']);
+		}
+	</script>
+
+</body>
+</html>
