@@ -1683,13 +1683,12 @@ a:not(.buttonstyles) {
                 <option>AU (+61)</option>
                 <option>PH (+63)</option>
               </select>
-              <span class="DropArrow"></span>
-            </div>
+              <span class="DropArrow"></span> </div>
           </div>
           <div class="responsive-td"  style="width:30%; padding-bottom:10px">
             <label class="FormLabel">&nbsp;</label>
             <div class="FormTextBoxWrapper">
-              <input type="tel" name="mobile" class="FormTextBox" />
+              <input type="text" name="mobile" class="FormTextBox" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
             </div>
           </div>
         </div>
@@ -1721,7 +1720,7 @@ a:not(.buttonstyles) {
           <div class="responsive-td"  style="width:14%;">
             <label class="FormLabel">Post Code</label>
             <div class="FormTextBoxWrapper">
-              <input type="text" name="PostCode" class="FormTextBox" />
+              <input type="text" name="PostCode" class="FormTextBox" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
             </div>
           </div>
         </div>
